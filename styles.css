@@ -1,0 +1,164 @@
+/* Author: P. Inoj Dinitha Gunarathna
+*/
+
+/*
+COLOURS
+#ffffff - white (for text)
+#ff0000 - red
+#8f0000 - dark red
+#000000 - black
+*/
+
+/*GLOBAL SETTING
+----------------------------------------
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+	background-color: #000000;
+    font-size: 16px;
+	font-weight: 400;
+	font-family: 'Josefin Sans';
+	color: #ffffff;
+    margin: 0;
+}
+
+#wrapper {
+	position: relative;
+	width: 1200px; 
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+/* HEADER
+----------------------------------------
+*/
+
+header {
+	background: #000000	url(images/banner.jpg);
+	height: 400px;
+	color: #ffffff;	
+}
+	
+header h1 {
+	visibility: hidden;
+}
+
+header img {
+	position: relative;
+	left: 5px;
+	z-index: 999;
+}
+
+/* NAVIGATION
+----------------------------------------
+*/
+
+nav {
+	background-color: rgba(0,0,0,0.65);
+	position: absolute;
+	top: 0px; left: 0px;
+	width: 100%;
+	padding-top: 38px;
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px 20px 15px 20px;
+}
+
+nav a:hover {
+	background-color: #8f0000;
+}
+
+nav a:visited {
+	color: #ffffff;
+}
+
+nav ul {
+	padding-left: 700px;
+	list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
+
+/* CONTENT 1
+----------------------------------------
+*/
+main {
+    display: flex;
+    margin: 30px 0;
+    text-align: center;
+}
+
+section {
+    border-style: solid;
+    border-color: #8f0000;
+}
+.sub1 {
+    display:flow-root;
+    text-align: center;
+}
+
+.sub3 {
+ justify-content: center;
+    display: flex;
+}
+.sub3 h3 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* CONTENT 2
+----------------------------------------
+*/
+#news {
+    background-color: #8f0000;
+    color: #ffffff;
+    display: flex;
+    padding: 25px;
+}
+
+#news div {
+    padding-left: 25px;
+
+}
+
+#news a {
+	background-color: #ff0000;
+    color: #ffffff;
+	text-decoration: none;
+	font-size: 1.2em;
+	border: 1px solid #ffffff;
+    padding: 4px 15px;
+}
+
+/* FOOTER
+----------------------------------------
+*/
+
+footer ul{
+    font-size: 13px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+footer li {
+    padding-left: 7px;
+    padding-right: 7px;
+}
